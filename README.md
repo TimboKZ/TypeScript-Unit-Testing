@@ -1,2 +1,3 @@
-# typescript-unit-testing
-An example TypeScript project with Jasmine unit tests.
+# TypeScript Jasmine Unit Testing
+
+An example TypeScript project with Jasmine unit tests. Based on [this tutorial](https://angular.io/docs/ts/latest/testing/jasmine-testing-101.html) from Angular 2 docs. To run tests, clone this repository, run `npm install` in the directory and open `unit-tests.html`. If you want Webpack to recompile the `bundle.js` for you in real time, run `npm run watch`. The unit test code can be found in `src/app.ts`.

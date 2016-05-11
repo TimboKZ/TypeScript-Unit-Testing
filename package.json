@@ -1,0 +1,30 @@
+{
+  "name": "typescript-unit-testing",
+  "version": "1.0.0",
+  "description": "An example NPM project with TypeScript unit tests using Jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "typings install",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimboKZ/TypeScript-Unit-Testing.git"
+  },
+  "author": "Timur Kuzhagaliyev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimboKZ/TypeScript-Unit-Testing/issues"
+  },
+  "homepage": "https://github.com/TimboKZ/TypeScript-Unit-Testing#readme",
+  "devDependencies": {
+    "jasmine-core": "2.4.1",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.9.0-dev.20160510",
+    "typings": "^0.8.1",
+    "webpack": "^1.13.0"
+  },
+  "dependencies": {
+  }
+}
